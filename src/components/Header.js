@@ -2,7 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import React from 'react';
-import './Header.css';
+import '../css/Header.css';
+
 const title = "wookashPortfolio";
 
 function Header() {
