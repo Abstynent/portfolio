@@ -1,0 +1,30 @@
+:root {
+    --col-slate: #a8b2d1;
+    --col-white: #e6f1ff;
+    --col-green: rgb(0, 215, 0);
+}
+
+.navbar-toggler {
+    background-color: var(--col-slate);
+}
+
+.header-bg-custom {
+    background-color: #112240;
+}
+
+.header-item {
+    color: var(--col-slate);
+}
+
+.header-item:hover {
+    color: var(--col-slate);
+}
+
+.header-item.dropdown {
+    color: var(--col-white);
+}
+
+.header-item.dropdown:hover,
+.header-item.dropdown:active {
+    color: var(--col-green);
+}
