@@ -1,0 +1,27 @@
+.about-style {
+    background-color: var(--bg-color);
+    position: relative;
+    color: var(--col-slate);  
+    line-height: 0.9;
+    text-align: center;
+    border-radius: 20px;
+}
+.avatar-img {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-col {
+    padding-top: 20px; 
+}
+
+.content-col p {
+    font-size: 20px;
+}
+ .skills li {
+    font-size: 14px;
+    line-height: 1rem;
+    text-align: left;
+ }

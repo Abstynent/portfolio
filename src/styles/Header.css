@@ -1,9 +1,3 @@
-:root {
-    --col-slate: #a8b2d1;
-    --col-white: #e6f1ff;
-    --col-green: rgb(0, 215, 0);
-}
-
 .navbar-toggler {
     background-color: var(--col-slate);
 }

@@ -16,7 +16,7 @@ function Header({ currentPage, handlePageChange }) {
           <Nav className="ms-auto">
             <Nav.Link 
             className='header-item dropdown hover-underline-animation' 
-            href="#home"
+            href="#about"
             onClick={() => handlePageChange('About')}
             >
               About Me

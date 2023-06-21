@@ -1,0 +1,11 @@
+:root {
+    --col-slate: #a8b2d1;
+    --col-white: #e6f1ff;
+    --col-green: rgb(0, 215, 0);
+    --bg-color: #112240;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--col-white);
+}
