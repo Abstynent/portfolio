@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/Body.css';
+import '../styles/Body.css';
 
 import About from './About';
 import Portfolio from './Portfolio';
@@ -16,8 +16,10 @@ function Body() {
             <Container fluid className="bg-img h-100 d-flex align-items-center justify-content-center middle">
             <Row>
               <Col className='typewriter text-center'>
-                <h1><span className='greeting'>Hi!</span> I am Lukasz Jurkiewicz</h1>
+                <h1><span className='greeting'>Hi!</span></h1>
+                <h2>I'm Lukasz Jurkiewicz</h2>
                 <h2>Full Stack Developer</h2>
+                <a href='#about'>About me</a>
               </Col>
             </Row>
         </Container>);
@@ -35,11 +37,5 @@ function Body() {
         </div>
     );
 };
-
-document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-      document.querySelector(".typewriter h2").style.display = "block";
-    }, 3900); /* Delay should match the duration of h1 animation (3.5 seconds) */
-  });
 
 export default Body;
