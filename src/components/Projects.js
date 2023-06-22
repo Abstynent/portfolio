@@ -8,13 +8,15 @@ const ProjectCard = ({ project }) => {
   const { title, description, image, url, repo } = project;
 
   return (
-    <Card>
-      <Card.Img variant="top" src={image} alt={title} />
+    <Card className='custom-card'>
+      <Card.Img src={image} alt={title} height={250} />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text>{description}</Card.Text>
-        <a href={url}><FontAwesomeIcon icon={faEye} size="2xl" style={{color: "#000000",}} /></a>
-        <a href={repo}><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#000000",}} /></a>
+        <Card.Title className="text-center">{title}</Card.Title>
+        <Card.Text style={{height: '100px'}}>{description}</Card.Text>
+        <div className='text-center portfolio-icons'>
+            <a href={url}><FontAwesomeIcon icon={faEye} size="2xl" style={{color: "#a8b2d1",}} /></a>
+            <a href={repo}><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#a8b2d1",}} /></a>
+        </div>
       </Card.Body>
     </Card>
   );

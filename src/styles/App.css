@@ -9,3 +9,19 @@ body {
     background-color: var(--bg-color);
     color: var(--col-white);
 }
+
+.custom-card {
+    margin: 20px;
+    /* height: 75vh; */
+    max-width: 50vh;
+    background-color: var(--bg-color);
+    color: var(--col-slate);
+}
+
+.header-portfolio {
+    margin: 20px;
+}
+
+.portfolio-icons a {
+    margin: 0 15px;
+}
