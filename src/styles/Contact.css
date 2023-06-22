@@ -1,0 +1,9 @@
+.contact-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.contact-col a:hover .icon {
+    color: var(--col-green) !important;
+}

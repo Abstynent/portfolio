@@ -14,8 +14,8 @@ const ProjectCard = ({ project }) => {
         <Card.Title className="text-center">{title}</Card.Title>
         <Card.Text style={{height: '100px'}}>{description}</Card.Text>
         <div className='text-center portfolio-icons'>
-            <a href={url}><FontAwesomeIcon icon={faEye} size="2xl" style={{color: "#a8b2d1",}} /></a>
-            <a href={repo}><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#a8b2d1",}} /></a>
+            <a href={url}><FontAwesomeIcon icon={faEye} size="2xl" style={{color: "#a8b2d1"}} /></a>
+            <a href={repo}><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#a8b2d1"}} /></a>
         </div>
       </Card.Body>
     </Card>
