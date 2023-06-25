@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Body.css';
 import Header from './Header';
+import Footer from './Footer';
 
 import Home from '../pages/Home';
 import About from '../pages/About';
@@ -28,6 +29,7 @@ function Body() {
             <Container fluid className="bg-img h-100 d-flex align-items-center justify-content-center middle">
                 {renderPage()}
             </Container>
+            <Footer />
         </div>
     );
 };
