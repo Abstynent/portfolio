@@ -65,7 +65,7 @@ h1, h2 {
 
 /* CSS - downloaded from getcssscan.com */
 .btn-custom {
-    opacity: 0;
+    margin-top: 1rem;
     font-size: 18px;
     color: var(--col-slate);
     font-family: inherit;
