@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import '../styles/Body.css';
-
-import Home from './Home';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
 import Header from './Header';
-import Resume from './Resume';
+
+import Home from '../pages/Home';
+import About from '../pages/About';
+import Portfolio from '../pages/Portfolio';
+import Contact from '../pages/Contact';
+import Resume from '../pages/Resume';
 
 import { Container } from 'react-bootstrap';
 

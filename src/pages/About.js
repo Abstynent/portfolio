@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/About.css'
 import { Container, Row, Col } from 'react-bootstrap';
-import AboutSection from './AboutSection';
+import AboutSection from './partials/AboutSection';
 export default function About() {
     return (
         <Container>
