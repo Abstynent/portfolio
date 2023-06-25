@@ -4,7 +4,7 @@ import { Col } from 'react-bootstrap';
 export default function AboutSection() {
     return (
         <Col md={9} className='content-col'>
-                    <h1>wookash</h1>
+                    <h1>About me</h1>
                     <p>I'm Lukasz, a passionate and highly skilled full stack developer. 
                         My expertise lies in creating innovative and efficient web applications. 
                         With a comprehensive understanding of both front-end and back-end development, 
