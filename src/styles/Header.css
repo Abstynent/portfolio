@@ -1,3 +1,5 @@
+
+
 .navbar-toggler {
     background-color: var(--col-slate);
 }
@@ -8,6 +10,9 @@
 
 .header-bg-custom {
     background-color: #112240;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .header-item {
@@ -19,14 +24,10 @@
 }
 
 .header-item.dropdown {
-    margin-right: 10px;
-    color: var(--col-white);
+  margin-right: 10px;
+  color: var(--col-white);
 }
 
-.header-item.dropdown:hover,
-.header-item.dropdown:active {
-    color: var(--col-white);
-}
 
 .hover-underline-animation {
     display: inline-block;
@@ -34,20 +35,28 @@
     color: var(--col-green);
   }
   
-  .hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--col-green);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--col-green);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.header-item.dropdown:hover,
+.header-item.dropdown:active {
+  color: var(--col-white);
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation:hover:after,
+.hover-underline-animation.active:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
