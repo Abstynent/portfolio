@@ -26,7 +26,6 @@ const ContactForm = () => {
             setErrors({ ...errors, message: 'Message is required' });
         }
 
-        // If there are no errors, you can proceed with form submission
         if (Object.keys(errors).length === 0 && !invalidEmail) {
             // Place for backend code to handle submission
 
@@ -37,7 +36,6 @@ const ContactForm = () => {
     };
 
     const isValidEmail = (email) => {
-        // A simple email validation using regular expression
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);
     };
