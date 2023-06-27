@@ -20,8 +20,8 @@ const Resume = () => {
         <Col xs={12} sm={6} className="text-center mt-4">
           <h1 className="mb-4">My resume</h1>
           <div className="d-flex justify-content-center">
-            <Button variant="link" onClick={downloadCV}>
-              <FontAwesomeIcon icon={faFileArrowDown} size="6x" />
+            <Button className='mt-4 mb-3' variant="" onClick={downloadCV}>
+              <FontAwesomeIcon icon={faFileArrowDown} size="6x" style={{color: "a8b2d1",}}/>
             </Button>
           </div>
         </Col>
