@@ -10,7 +10,7 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <Navbar collapseOnSelect expand="lg" className="header-bg-custom">
       <Container>
-        <Navbar.Brand className='header-item' href="/">{title}</Navbar.Brand>
+        <Navbar.Brand className='header-item' onClick={() => handlePageChange('Home')}>{title}</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
