@@ -9,9 +9,9 @@ import ContactForm from '../../components/ContactForm';
 export default function Contact() {
     return (
         <Container>
-            <Row className='about-style'>
+            <Row className='custom-container'>
                 <Col md={4} className='avatar-col'>
-                    <img src='/img/contact-me.png' alt='Avatar' className='avatar-img' />
+                    <img src='/assets/img/contact-me.png' alt='Avatar' className='avatar-img' />
                 </Col>
 
                 <Col md={8} className='contact-col'>
@@ -19,7 +19,7 @@ export default function Contact() {
                 </Col>
             </Row>
 
-            {/* <Row className='about-style'>
+            {/* <Row className='custom-container'>
                 <Col md={3} className='contact-col'>
                     <a href='mailto:luk.jur@outlook.com'>
                         <FontAwesomeIcon

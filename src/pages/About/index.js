@@ -5,10 +5,10 @@ import AboutSection from '../../components/AboutSection';
 export default function About() {
     return (
         <Container>
-            <Row className='about-style'>
+            <Row className='custom-container'>
                 <Col md={3} className='avatar-col'>
                     <img
-                        src='/img/avatar.png'
+                        src='/assets/img/avatar.png'
                         alt='Avatar'
                         className='avatar-img'
                     />
