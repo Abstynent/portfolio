@@ -3,6 +3,8 @@ import { Button, Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
+import avatar from '../../assets/img/resume.png';
+
 const Resume = () => {
   const downloadCV = (event) => {
     event.preventDefault();
@@ -14,7 +16,7 @@ const Resume = () => {
     <Container>
       <Row className="justify-content-center custom-container">
         <Col md={3} className='avatar-col'>
-          <img src='/assets/img/resume.png' alt='Avatar' className='avatar-img' />
+          <img src={avatar} alt='Avatar' className='avatar-img' />
         </Col>
 
         <Col xs={12} sm={6} className="text-center mt-4">

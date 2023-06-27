@@ -5,13 +5,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 // import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 // import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import ContactForm from '../../components/ContactForm';
+import avatar from '../../assets/img/contact-me.png';
 
 export default function Contact() {
     return (
         <Container>
             <Row className='custom-container'>
                 <Col md={4} className='avatar-col'>
-                    <img src='/assets/img/contact-me.png' alt='Avatar' className='avatar-img' />
+                    <img src={avatar} alt='Avatar' className='avatar-img' />
                 </Col>
 
                 <Col md={8} className='contact-col'>
