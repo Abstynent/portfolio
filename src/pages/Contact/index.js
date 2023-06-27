@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/Contact.css';
+import './style.css';
 import { Container, Row, Col } from 'react-bootstrap';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 // import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import ContactForm from './partials/ContactForm';
+import ContactForm from '../../components/ContactForm';
 
 export default function Contact() {
     return (
