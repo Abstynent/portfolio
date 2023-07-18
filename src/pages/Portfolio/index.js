@@ -12,7 +12,7 @@ import cookLense from '../../assets/img/projects/cooklense.png';
 const portfolioProjects = [
   {
     title: 'cookLense',
-    description: 'Employee Tracker is a CMS app for efficient employee control. Manage employees, roles, and departments with ease. Built with MySQL and NodeJS for a seamless experience.',
+    description: 'Meal planning application that allows users to choose a cuisine then search for recipes using given criteria.',
     image: cookLense,
     url: 'https://cooklense-6466eecac055.herokuapp.com/',
     repo: 'https://github.com/kristiyantefov/Cooklense',
