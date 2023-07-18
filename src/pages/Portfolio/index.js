@@ -7,14 +7,15 @@ import ttbImg from '../../assets/img/projects/ttb.png';
 import jateImg from '../../assets/img/projects/jate.png';
 import weatherImg from '../../assets/img/projects/weather.png';
 import employeeManagerImg from '../../assets/img/projects/employee-manager.png';
+import cookLense from '../../assets/img/projects/cooklense.png';
 
 const portfolioProjects = [
   {
-    title: 'MealPlan',
-    description: 'This group project involves creating an app for searching meal and drink recipes. Users can explore recipes based on categories, ingredients, and regions.',
-    image: mealPlanImg,
-    url: 'https://abstynent.github.io/project1-meal-plan-app/',
-    repo: 'https://github.com/Abstynent/project1-meal-plan-app',
+    title: 'cookLense',
+    description: 'Employee Tracker is a CMS app for efficient employee control. Manage employees, roles, and departments with ease. Built with MySQL and NodeJS for a seamless experience.',
+    image: cookLense,
+    url: 'https://cooklense-6466eecac055.herokuapp.com/',
+    repo: 'https://github.com/kristiyantefov/Cooklense',
   },
   {
     title: 'SocioSynergy',
@@ -22,6 +23,13 @@ const portfolioProjects = [
     image: socioSynergyImg,
     url: 'https://sociosynergy1.herokuapp.com/',
     repo: 'https://github.com/Ze7Hu/SocioSynergy',
+  },
+  {
+    title: 'MealPlan',
+    description: 'This group project involves creating an app for searching meal and drink recipes. Users can explore recipes based on categories, ingredients, and regions.',
+    image: mealPlanImg,
+    url: 'https://abstynent.github.io/project1-meal-plan-app/',
+    repo: 'https://github.com/Abstynent/project1-meal-plan-app',
   },
   {
     title: 'The Tech Blog',
@@ -43,13 +51,6 @@ const portfolioProjects = [
     image: weatherImg,
     url: 'https://abstynent.github.io/5d-weather-forecast/',
     repo: 'https://github.com/Abstynent/5d-weather-forecast',
-  },
-  {
-    title: 'CLI Employee Manager',
-    description: 'Employee Tracker is a CMS app for efficient employee control. Manage employees, roles, and departments with ease. Built with MySQL and NodeJS for a seamless experience.',
-    image: employeeManagerImg,
-    url: 'https://drive.google.com/file/d/1NXjKk_rjHTSCx5w2Il466pzOrc_KMTRW/view?usp=sharing',
-    repo: 'https://github.com/Abstynent/mysql-employee-manager/',
   },
 ];
 
