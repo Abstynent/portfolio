@@ -6,7 +6,7 @@ import socioSynergyImg from '../../assets/img/projects/sociosynergy.png';
 import ttbImg from '../../assets/img/projects/ttb.png';
 import jateImg from '../../assets/img/projects/jate.png';
 import weatherImg from '../../assets/img/projects/weather.png';
-import employeeManagerImg from '../../assets/img/projects/employee-manager.png';
+// import employeeManagerImg from '../../assets/img/projects/employee-manager.png';
 import cookLense from '../../assets/img/projects/cooklense.png';
 
 const portfolioProjects = [
@@ -21,7 +21,7 @@ const portfolioProjects = [
     title: 'SocioSynergy',
     description: 'This group project involves creating a Social media platform that allows users to share their thoughts, opinions, and experiences in real-time.',
     image: socioSynergyImg,
-    url: 'https://sociosynergy1.herokuapp.com/',
+    url: 'https://socio5ynergy.herokuapp.com/',
     repo: 'https://github.com/Ze7Hu/SocioSynergy',
   },
   {
